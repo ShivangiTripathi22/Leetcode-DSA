@@ -1,12 +1,4 @@
-// class Solution {
-// public:
-//     vector<int> getSneakyNumbers(vector<int>& nums) {
-//         unorderd_map<int,int>mp;
-//         for(int i=0;i<nums.size();i++){
-//             find(nums[i])
-//         }
-//     }
-// };
+
 class Solution {
 public:
     vector<int> getSneakyNumbers(vector<int>& nums) {
