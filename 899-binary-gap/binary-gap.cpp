@@ -4,7 +4,7 @@ public:
         int binary[32];
         int i = 0;
 
-        // Convert decimal to binary (LSB first)
+        
         while (n > 0) {
             binary[i] = n % 2;
             n /= 2;
@@ -14,7 +14,6 @@ public:
         int last = -1;
         int maxGap = 0;
 
-        // Traverse binary array
         for (int j = 0; j < i; j++) {
             if (binary[j] == 1) {
                 if (last != -1) {
